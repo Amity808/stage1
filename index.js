@@ -2,7 +2,7 @@
 
 
 // we create a function to get the current day of the week
-const currentDate = new Date()
+var currentDate = new Date()
 function getCurrentDay() {
     const daysInWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     const getTodayDate = currentDate.getUTCDay()
