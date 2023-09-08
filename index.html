@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HNG STAGE1</title>
-    
+    <link rel="stylesheet" href="style.css">
     <script  type="text/javascript" src="index.js"></script>
 </head>
 <body>
-    <div>
-        <h1 data-testid="slackUserName">Amity</h1>
+    <div class="center-container">
+        <div class="header-name">
+            <h1 data-testid="slackUserName">Amity</h1>
+        </div>
+        <div>
+            <img src="./image.jpg" alt="Amity" class="img" data-testid="slackDisplayImage">
+        </div>
+        <div>
+            <p data-testid="myTrack">Track: Frontend</p>
+            <p>Current Day Of The Week: <span data-testid="currentDayOfTheWeek"></span></p>
+            <p>Current UTC: <span data-testid="currentUTCTime"></span></p>
+        </div>
+        <a href="https://github.com/Amity808/stage1/" data-testid="githubURL">GitHub</a>
     </div>
-    <div>
-        <img src="" alt="Amity" data-testid="slackDisplayImage">
-    </div>
-    <div>
-        <p data-testid="currentDayOfTheWeek"></p>
-        <p data-testid="currentUTCTime"></p>
-        <p data-testid="myTrack">Frontend</p>
-    </div>
-    <a href="" data-testid="githubURL"></a>
-    <script src="./index.js">
-        
-    </script>
 </body>
 </html>
