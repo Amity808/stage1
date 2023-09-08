@@ -21,5 +21,6 @@ currentUTCTSelector.textContent = getCurrentUTCTime();
 
 
 var a = getCurrentDay();
+console.log(getCurrentUTCTime());
 console.log(getCurrentDay());
 console.log(new Date());
